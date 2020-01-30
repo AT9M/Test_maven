@@ -20,4 +20,13 @@ public class Calculator {
         sum = fistrNum-secondNum;
         return sum;
     }
+    public boolean egual(int fistrNum, int secondNum){
+        if(fistrNum==secondNum)
+        {
+            return true;
+        }
+        else{
+            return false;
+        }
+    }
 }
